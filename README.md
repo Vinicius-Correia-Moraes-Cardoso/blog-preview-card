@@ -1,2 +1,2 @@
 # blog-preview-card
-My take on the preview cardo from frontend mentor.
+My take on the "preview card" from frontend mentor.
