@@ -9,7 +9,7 @@ body {
     justify-content: center;
 }
 
-p, h1{
+p, h2{
     margin: 0px;
 }
 
@@ -18,13 +18,13 @@ p, h1{
    display: flex;
    flex-wrap: wrap;
    align-self: center;
-   width: 430px;
+   width: 351px;
    height: 530px;
    border-radius: 28px;
    box-sizing: border-box;
-   padding: 20px;
+   padding: 18px;
    border: 1px solid hsl(0, 0%, 7%);
-   box-shadow: 12px 12px black;
+   box-shadow: 9px 9px black;
 }
 
 .cardImage {
@@ -38,6 +38,14 @@ p, h1{
     font-weight: 800;
 }
 
+h2 {
+    height: fit-content;
+}
+.hover-text:hover {
+    color: hsl(47, 88%, 63%);
+    transition: color 0.2s ease;
+}
+
 .topic {
     display: flex;
     justify-content: center;
@@ -46,7 +54,7 @@ p, h1{
     width: 80px;
     border-radius: 6px;
     background-color: hsl(47, 88%, 63%);
-    margin-right: 300px;
+    margin-right: 200px;
 }
 
 
@@ -57,6 +65,7 @@ p, h1{
 #cardDescription {
     font-size: 16px;
     color: hsl(0, 0%, 42%);
+    flex-shrink: 2;
 }
 
 .authorImg {
