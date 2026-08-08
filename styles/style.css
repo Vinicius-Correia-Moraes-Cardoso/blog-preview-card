@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+    width: 100%;
+    font-family: "Figtree", sans-serif;
+    background-color:hsl(47, 88%, 63%);
+}
+
+.bold{
+    font-weight: 800;
+}
+
+#published {
+    font-weight: 500;
+}
+
+#cardDescription {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
